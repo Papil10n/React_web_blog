@@ -1,18 +1,25 @@
 .footer {
-
+    text-align: center;
+    padding: 50px 0;
 }
 .footerContent {
 
 }
 .container {
-
+    max-width: 856px;
+    margin: 0 auto;
 }
 .footerSocial {
-
+    margin-bottom: 25px;
 }
 .social {
-
 }
 .socialItem {
+    transition: opacity 0.3s ease 0s;
+    margin: 0 17px;
+    font-size: 30px;
+    color: inherit;
+}
+.footerCopy {
 
 }

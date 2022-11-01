@@ -1,11 +1,18 @@
 .header {
-
+    position: relative;
+    z-index: 100;
 }
 .headerContent {
-
+    max-width: 1052px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
 .headerMenu {
-
+    padding: 10px 0;
+    height: 51px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
 }
 .menu {
 

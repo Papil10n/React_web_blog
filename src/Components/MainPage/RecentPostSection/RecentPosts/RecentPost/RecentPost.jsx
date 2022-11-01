@@ -1,15 +1,17 @@
+import style from "./RecentPost.module.css"
+
 const RecentPost = () => {
     return (
-        <div className="recent-posts__column">
-            <article className="recent-posts__item recent-post">
-                <a href="blog.html" className="recent-post__title">Redux</a>
-                <div className="recent-post__info">1 Oct 2022 <span>|</span>State management,
+        <div className={style.recentPostsColumn}>
+            <article className={`${style.recentPostsItem} ${style.recentPost}`}>
+                <a href="#" className={style.recentPostTitle}>Redux</a>
+                <div className={style.recentPostInfo}>1 Oct 2022 <span>|</span>State management,
                     createStore(),
                     Observer(pattern), dispatch,
                     context
                     API, combineReducers()
                 </div>
-                <div className="recent-post__text text">
+                <div className={`${style.recentPostText} ${style.text}`}>
                     Exercitation veniam consequat sunt nostrud amet. Consequat sunt nostrud amet.
                 </div>
             </article>

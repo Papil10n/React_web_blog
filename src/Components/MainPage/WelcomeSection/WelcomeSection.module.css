@@ -1,0 +1,23 @@
+.hello {
+    padding: 38px 0 70px 0;
+}
+.helloContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.container {
+
+}
+.helloAvatar {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 243px;
+    flex: 0 0 243px;
+    height: 243px;
+    position: relative;
+    border-radius: 50%;
+    width: 243px;
+    margin: 0 auto;
+    -webkit-box-shadow: -5px 13px 0 0 #edf7fa;
+    box-shadow: -5px 13px 0 0 #edf7fa;
+}

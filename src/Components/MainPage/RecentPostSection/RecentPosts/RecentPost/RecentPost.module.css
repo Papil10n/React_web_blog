@@ -1,0 +1,52 @@
+.recentPostsColumn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    padding: 0 10px;
+    margin-bottom: 17px;
+}
+
+.recentPost {
+    height: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+    box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.recentPostsItem {
+
+}
+
+.recentPostTitle {
+    display: inline-block;
+    color: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 146.1538461538%;
+    -webkit-transition: color 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
+    margin: 0 0 17px 0;
+}
+
+.recentPostInfo {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    line-height: 144.4444444444%;
+}
+
+.recentPostInfo span {
+    margin: 0 10px;
+}
+
+.recentPostText {
+    margin-bottom: 15px;
+}
+
+.text {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 143.75%;
+    color: #21243d;
+}

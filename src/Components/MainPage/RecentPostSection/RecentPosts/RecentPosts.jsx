@@ -1,12 +1,13 @@
 import RecentPost from "./RecentPost/RecentPost";
+import style from "./RecentPosts.module.css"
 
 const RecentPosts = () => {
     return (
-        <div className="recent-posts__items">
+        <div className={style.recentPostsItems}>
             <RecentPost />
             <RecentPost />
         </div>
     )
 }
 
-export default  RecentPost
+export default  RecentPosts

@@ -1,11 +1,13 @@
-import GreetContent from "./GreetContent/GreetContent";
+import GreetContent from "./GreetContent/GreetContent"
+import style from "./WelcomeSection.module.css"
+import img from "./../../../Image/avatar.jpg"
 
 const WelcomeSection = () => {
     return (
-        <section className="hello">
-            <div className="hello__container _container">
+        <section className={style.hello}>
+            <div className={`${style.helloContainer} ${style.container}`}>
                 <GreetContent />
-                <img className="hello__avatar" src="img/avatar.jpg" alt="#" />
+                <img className={style.helloAvatar} src={img} alt="#" />
             </div>
         </section>
     )

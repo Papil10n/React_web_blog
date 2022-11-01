@@ -1,8 +1,10 @@
+import style from "./RecentPostInfo.module.css"
+
 const RecentPostInfo = () => {
     return (
-        <div className="recent-posts__header">
-            <div className="recent-posts__title title-posts">Recent posts</div>
-            <a href="blog.html" className="recent-posts__view-all">View all</a>
+        <div className={style.recentPostsHeader}>
+            <div className={`${style.recentPostsTitle} ${style.titlePosts}`}>Recent posts</div>
+            <a href="blog.html" className={style.recentPostsViewAll}>View all</a>
         </div>
     )
 }
