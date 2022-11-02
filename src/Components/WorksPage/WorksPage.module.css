@@ -1,0 +1,25 @@
+.container {
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.worksPageContainer {
+    padding-top: 31px;
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.worksMainTitle {
+    margin-bottom: 45px;
+}
+
+.title {
+    font-size: 44px;
+    font-weight: 700;
+    color: #21243d;
+    line-height: 136.3636363636%;
+}
+
+.worksItems {
+    padding-bottom: 60px;
+}

@@ -95,18 +95,18 @@ body {
     flex: 1 1 auto;
 }
 
-.container {
-    max-width: 856px;
-    margin: 0 auto;
-}
-@media (max-width: 868px) {
-    .container {
-        max-width: 750px;
-    }
-}
-@media (max-width: 992px) {
-    .container {
-        max-width: none;
-        padding: 0 10px;
-    }
-}
+/*.container {*/
+/*    max-width: 856px;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*@media (max-width: 868px) {*/
+/*    .container {*/
+/*        max-width: 750px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 992px) {*/
+/*    .container {*/
+/*        max-width: none;*/
+/*        padding: 0 10px;*/
+/*    }*/
+/*}*/

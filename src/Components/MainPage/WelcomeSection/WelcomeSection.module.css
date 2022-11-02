@@ -1,13 +1,15 @@
 .hello {
-    padding: 38px 0 70px 0;
+    padding: 38px 0 45px 0;
 }
 .helloContainer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 856px;
+    margin: 0 auto;
 }
 .container {
-
+    padding-top: 31px;
 }
 .helloAvatar {
     -webkit-box-flex: 0;

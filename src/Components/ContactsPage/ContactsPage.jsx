@@ -1,11 +1,12 @@
 import ContactItem from "./ContactItem/ContactItem";
+import style from "./ContactsPage.module.css"
 
 
 const ContactsPage = () => {
     return (
-        <div className="contact__container _container">
-            <h1 className="contact__title title">Contact</h1>
-            <div className="contact__items">
+        <div className={`${style.contactContainer} ${style.container}`}>
+            <h1 className={`${style.contactTitle} ${style.title}`}>Contact</h1>
+            <div className={`${style.contactItems}`}>
                 <ContactItem />
                 <ContactItem />
                 <ContactItem />

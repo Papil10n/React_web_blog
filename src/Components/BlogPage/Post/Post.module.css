@@ -1,0 +1,36 @@
+.blogItem {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.blogArticleName {
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 146.6666666667%;
+    transition: color 0.3s ease 0s;
+    margin-bottom: 10px;
+    color: inherit;
+}
+.blogInfo {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.blogDate {
+
+}
+.blogSeparator {
+    margin: 0 15px;
+}
+.blogCategory {
+    color: #8695a4;
+}
+.blogText {
+
+}
+.text {
+    font-size: 16px;
+    line-height: 143.75%;
+    color: #21243d;
+}

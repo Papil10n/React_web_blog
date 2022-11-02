@@ -1,0 +1,28 @@
+.contactItem {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.contactName {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 146.6666666667%;
+}
+.contactLink {
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 145.8333333333%;
+    color: #8695A4;
+}
+.contactText {
+
+}
+.text {
+    font-size: 16px;
+    line-height: 143.75%;
+    color: #21243d;
+}

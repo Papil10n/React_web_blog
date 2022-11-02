@@ -1,13 +1,13 @@
-import Project from "./Project/Project";
+import style from "./WorksPage.module.css"
+import ProjectsContainer from "./Projects/ProjectsContainer";
 
-const WorksPage = () => {
+const WorksPage = (props) => {
+    console.log()
     return (
-        <div className="works page__container _container">
-            <h1 className="works__main-title title">Works</h1>
-            <div className="works__items">
-                {/* article works__item*/}
-                <Project />
-                <Project />
+        <div className={`${style.worksPageContainer} ${style.container}`}>
+            <h1 className={`${style.worksMainTitle} ${style.title}`}>Works</h1>
+            <div className={style.worksItems} >
+                <ProjectsContainer />
             </div>
         </div>
     )

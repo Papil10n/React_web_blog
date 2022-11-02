@@ -1,10 +1,11 @@
-import Post from "./Post/Post";
+import Post from "./Post/Post"
+import style from "./BlogPage.module.css"
 
 const BlogPage = () => {
     return (
-        <div className="blog page__container _container">
-            <h1 className="blog__title title">Blog</h1>
-            <div className="blog__items">
+        <div className={`${style.blog} ${style.pageContainer} ${style.container}`}>
+            <h1 className={`${style.blogTitle} ${style.title}`}>Blog</h1>
+            <div className={style.blogItems}>
                 <Post />
                 <Post />
                 <Post />

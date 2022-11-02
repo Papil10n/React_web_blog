@@ -1,0 +1,20 @@
+.contactContainer {
+    max-width: 856px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+.container {
+
+}
+.contactTitle {
+    margin-bottom: 50px;
+}
+.title {
+    font-size: 44px;
+    font-weight: 700;
+    color: #21243d;
+    line-height: 136.3636363636%;
+}
+.contactItems {
+    margin-bottom: 50px;
+}

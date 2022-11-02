@@ -1,9 +1,11 @@
+import style from "./ContactItem.module.css"
+
 const ContactItem = () => {
     return (
-        <div className="contact__item">
-            <div className="contact__name">Gmail</div>
-            <div className="contact__link">nikept.co@gmail.com</div>
-            <div className="contact__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+        <div className={style.contactItem}>
+            <div className={style.contactName}>Gmail</div>
+            <div className={style.contactLink}>nikept.co@gmail.com</div>
+            <div className={`${style.contactText} ${style.text}`}>Amet minim mollit non deserunt ullamco est sit aliqua dolor
                 do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
                 sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
