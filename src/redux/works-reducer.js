@@ -15,11 +15,11 @@ let initialState = {
     works: [
         {
             id: 1,
-            workName: "Quiz Game",
-            image: 'https://papil10n.github.io/My__site/img/works/08.jpg',
+            workName: "Social Network",
+            image: "",
             yearCreated: 2022,
-            category: "JS App",
-            link: "https://papil10n.github.io/quiz_game-/",
+            category: "React App",
+            link: "https://github.com/Papil10n/social_network",
             description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
         {
@@ -132,13 +132,14 @@ let initialState = {
         },
         {
             id: 14,
-            workName: "Social Network",
-            image: "",
+            workName: "Quiz Game",
+            image: 'https://papil10n.github.io/My__site/img/works/08.jpg',
             yearCreated: 2022,
-            category: "React App",
-            link: "",
+            category: "JS App",
+            link: "https://papil10n.github.io/quiz_game-/",
             description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
+
     //    and more
     ],
 
