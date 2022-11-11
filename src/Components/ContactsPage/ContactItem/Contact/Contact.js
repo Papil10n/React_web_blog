@@ -1,7 +1,6 @@
 import style from "./Contact.module.css";
 
 const Contact = (props) => {
-    console.log(props)
     return (
         <div className={style.contactItem}>
             <div className={style.contactName}>{props.data.type}</div>

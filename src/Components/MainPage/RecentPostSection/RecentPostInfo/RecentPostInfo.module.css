@@ -19,4 +19,10 @@
     font-size: 16px;
     line-height: 23px;
     color: #00a8cc;
+    transition: all 0.3s ease 0s;
+}
+.recentPostsViewAll:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 139, 0.11);
 }

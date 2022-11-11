@@ -28,6 +28,10 @@
     -webkit-transition: color 0.3s ease 0s;
     transition: color 0.3s ease 0s;
     margin: 0 0 17px 0;
+    cursor: default;
+}
+.recentPostTitle:hover {
+    color: #bb4949;
 }
 
 .recentPostInfo {
@@ -42,6 +46,7 @@
 
 .recentPostText {
     margin-bottom: 15px;
+    cursor: default;
 }
 
 .text {

@@ -30,7 +30,6 @@
 
 }
 .helloBtn {
-
     background-color: #bb4949;
     margin-bottom: 25px;
 }
@@ -49,4 +48,7 @@
     text-align: center;
     padding: 0 20px;
     transition: background-color 0.3s ease 0s;
+}
+.btn:hover {
+    background-color: #bb4949;
 }

@@ -10,6 +10,9 @@
 .menuList {
     display: flex;
 }
+.active {
+    color: #bba049;
+}
 .menuBody {
 
 }

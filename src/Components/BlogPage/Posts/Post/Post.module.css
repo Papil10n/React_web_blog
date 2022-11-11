@@ -11,6 +11,10 @@
     transition: color 0.3s ease 0s;
     margin-bottom: 10px;
     color: inherit;
+    cursor: default;
+}
+.blogArticleName:hover {
+    color: #bb4949;
 }
 .blogInfo {
     display: flex;

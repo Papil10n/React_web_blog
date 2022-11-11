@@ -17,6 +17,7 @@
 .socialItem {
     transition: opacity 0.3s ease 0s;
     margin: 0 17px;
+    padding: 0px 5px;
     font-size: 30px;
     color: inherit;
 }

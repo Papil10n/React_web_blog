@@ -9,8 +9,9 @@ const GreetContent = () => {
                 consequat duis enim
                 velit mollit. Exercitation veniam consequat sunt nostrud amet.
             </div>
-            <a href="https://drive.google.com/uc?export=download&id=1bq2YrsjpowZGfyGUwDipDT_Mvrb2AEIN"
-               className={`${style.helloBtn} ${style.btn}`}>Download Resume*</a>
+            <button
+               className={`${style.helloBtn} ${style.btn}`}>Download Resume
+            </button>
         </div>
     )
 }

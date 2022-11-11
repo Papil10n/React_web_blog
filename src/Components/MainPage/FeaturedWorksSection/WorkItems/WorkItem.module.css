@@ -13,6 +13,10 @@
     min-height: 180px;
     overflow: hidden;
     text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.worksImage:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.19);
 }
 .ibg {
     position: relative;
@@ -42,6 +46,9 @@
     color: inherit;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+}
+.worksTitle:hover {
+    color: #bb4949;
 }
 .worksInfo {
     display: -webkit-box;
@@ -79,6 +86,7 @@
     font-size: 16px;
     line-height: 143.75%;
     color: #21243d;
+    cursor: default;
 }
 .text{
 
