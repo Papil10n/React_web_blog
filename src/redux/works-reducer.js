@@ -25,7 +25,7 @@ let initialState = {
         {
             id: 2,
             workName: "Pomodoro Clock",
-            image: 'https://papil10n.github.io/My__site/img/works/05.jpg',
+            image: 'https://papil10n.github.io/Web_blog/img/works/05.jpg',
             yearCreated: 2022,
             category: "JS App",
             link: "https://papil10n.github.io/Pomodoro_Clock/",
@@ -34,7 +34,7 @@ let initialState = {
         {
             id: 3,
             workName: "Calculator",
-            image: 'https://papil10n.github.io/My__site/img/works/06.jpg',
+            image: 'https://papil10n.github.io/Web_blog/img/works/06.jpg',
             yearCreated: 2022,
             category: "JS App",
             link: "https://papil10n.github.io/Calculator/",
@@ -43,7 +43,7 @@ let initialState = {
         {
             id: 4,
             workName: "Stop Watch",
-            image: 'https://papil10n.github.io/My__site/img/works/07.jpg',
+            image: 'https://papil10n.github.io/Web_blog/img/works/07.jpg',
             yearCreated: 2022,
             category: "JS App",
             link: "https://papil10n.github.io/StopWatch/",
@@ -52,10 +52,10 @@ let initialState = {
         {
             id: 5,
             workName: "Random Password Generate",
-            image: 'https://papil10n.github.io/My__site/img/works/02.jpg',
+            image: 'https://papil10n.github.io/Web_blog/img/works/02.jpg',
             yearCreated: 2022,
             category: "JS App",
-            link: "#",
+            link: "https://papil10n.github.io/random_pass_generate/",
             description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
         {
@@ -133,7 +133,7 @@ let initialState = {
         {
             id: 14,
             workName: "Quiz Game",
-            image: 'https://papil10n.github.io/My__site/img/works/08.jpg',
+            image: 'https://papil10n.github.io/Web_blog/img/works/08.jpg',
             yearCreated: 2022,
             category: "JS App",
             link: "https://papil10n.github.io/quiz_game-/",

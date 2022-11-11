@@ -1,5 +1,5 @@
-import ContactItem from "./ContactItem/ContactItem";
 import style from "./ContactsPage.module.css"
+import ContactContainer from "./ContactItem/ContactContainer";
 
 
 const ContactsPage = () => {
@@ -7,9 +7,7 @@ const ContactsPage = () => {
         <div className={`${style.contactContainer} ${style.container}`}>
             <h1 className={`${style.contactTitle} ${style.title}`}>Contact</h1>
             <div className={`${style.contactItems}`}>
-                <ContactItem />
-                <ContactItem />
-                <ContactItem />
+                <ContactContainer />
             </div>
         </div>
     )

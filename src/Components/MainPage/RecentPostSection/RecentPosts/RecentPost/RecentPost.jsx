@@ -1,18 +1,14 @@
 import style from "./RecentPost.module.css"
 
-const RecentPost = () => {
+const RecentPost = (props) => {
     return (
         <div className={style.recentPostsColumn}>
             <article className={`${style.recentPostsItem} ${style.recentPost}`}>
-                <a href="#" className={style.recentPostTitle}>Redux</a>
-                <div className={style.recentPostInfo}>1 Oct 2022 <span>|</span>State management,
-                    createStore(),
-                    Observer(pattern), dispatch,
-                    context
-                    API, combineReducers()
+                <a href="#" className={style.recentPostTitle}>{props.data.postName}</a>
+                <div className={style.recentPostInfo}>{props.data.date} <span>|</span> {props.data.category}
                 </div>
                 <div className={`${style.recentPostText} ${style.text}`}>
-                    Exercitation veniam consequat sunt nostrud amet. Consequat sunt nostrud amet.
+                    {props.data.text}
                 </div>
             </article>
         </div>

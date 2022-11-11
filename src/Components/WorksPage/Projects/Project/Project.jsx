@@ -1,10 +1,12 @@
 import style from "./Project.module.css"
 
 const Project = (props) => {
+    const defaultImg = 'https://cdn-icons-png.flaticon.com/512/2748/2748558.png';
+
     return (
         <article className={style.worksItem}>
             <a href={props.data.link} className={`${style.worksImage} ${style.ibg}`}>
-                <img src={props.data.image ? props.data.image : "https://cdn-icons-png.flaticon.com/512/2748/2748558.png"} alt="Work #1"/>
+                <img src={props.data.image ? props.data.image : defaultImg} alt="Work"/>
             </a>
             <div className={style.worksBody}>
                 <div className={style.worksTitle}>

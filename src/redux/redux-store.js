@@ -2,15 +2,15 @@
 import {combineReducers, createStore} from "redux"
 import worksReducer from "./works-reducer";
 import blogReducer from "./blog-reducer";
+import contactReducer from "./contacts-reducer";
 
 let reducers = combineReducers({
-    // mainPage:
     worksPage: worksReducer,
-    blogPage: blogReducer
-    // Contact:
+    blogPage: blogReducer,
+    contactPage: contactReducer,
 })
 
-let store = createStore(reducers)
+let store = createStore(reducers);
 
 window.store = store
 
