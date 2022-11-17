@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/**/static/css/main.364fbccc.css",
+    "main.js": "/**/static/js/main.94e780bf.js",
+    "static/media/avatar.jpg": "/**/static/media/avatar.48767fb6b37990fad635.jpg",
+    "static/media/issWork.png": "/**/static/media/issWork.de5f40d7fa2f1bdc89e4.png",
+    "static/media/snakeWork.png": "/**/static/media/snakeWork.206356b3361a9dea746e.png",
+    "static/media/weatherWork.png": "/**/static/media/weatherWork.1b23e6934b7723aa25db.png",
+    "index.html": "/**/index.html",
+    "main.364fbccc.css.map": "/**/static/css/main.364fbccc.css.map",
+    "main.94e780bf.js.map": "/**/static/js/main.94e780bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.364fbccc.css",
+    "static/js/main.94e780bf.js"
+  ]
+}
