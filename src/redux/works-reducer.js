@@ -7,6 +7,7 @@ import timerWorkImg from "./../Image/timerWork.png"
 import liveSearchImg from "./../Image/liveSearchWork.png"
 import snakeWorkImg from "./../Image/snakeWork.png"
 import formValidationImg from "./../Image/validationFormWork.png"
+import socialNetwImg from './../Image/social_netw.png';
 
 // action type
 
@@ -16,7 +17,7 @@ let initialState = {
         {
             id: 1,
             workName: "Social Network",
-            image: "",
+            image: socialNetwImg,
             yearCreated: 2022,
             category: "React App",
             link: "https://github.com/Papil10n/social_network",
@@ -149,8 +150,6 @@ let initialState = {
 // reducer
 const worksReducer = (state = initialState, action) => {
     switch (action.type) {
-        case '':
-        case '':
         default:
             return state
     }

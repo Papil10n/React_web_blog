@@ -8,7 +8,7 @@ import store from "./redux/redux-store";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename='/React_web_blog'>
         <Provider store={store}>
             <App/>
         </ Provider>
