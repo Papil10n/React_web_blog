@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/React_web_blog/static/css/main.364fbccc.css",
-    "main.js": "/React_web_blog/static/js/main.cd67fb15.js",
+    "main.js": "/React_web_blog/static/js/main.9f7202be.js",
     "static/media/avatar.jpg": "/React_web_blog/static/media/avatar.48767fb6b37990fad635.jpg",
     "static/media/issWork.png": "/React_web_blog/static/media/issWork.de5f40d7fa2f1bdc89e4.png",
     "static/media/social_netw.png": "/React_web_blog/static/media/social_netw.81a9e684ae557a5b3948.png",
+    "static/media/todoApp.png": "/React_web_blog/static/media/todoApp.6061b5f6a991a34376da.png",
     "static/media/snakeWork.png": "/React_web_blog/static/media/snakeWork.206356b3361a9dea746e.png",
     "static/media/weatherWork.png": "/React_web_blog/static/media/weatherWork.1b23e6934b7723aa25db.png",
     "index.html": "/React_web_blog/index.html",
     "main.364fbccc.css.map": "/React_web_blog/static/css/main.364fbccc.css.map",
-    "main.cd67fb15.js.map": "/React_web_blog/static/js/main.cd67fb15.js.map"
+    "main.9f7202be.js.map": "/React_web_blog/static/js/main.9f7202be.js.map"
   },
   "entrypoints": [
     "static/css/main.364fbccc.css",
-    "static/js/main.cd67fb15.js"
+    "static/js/main.9f7202be.js"
   ]
 }
