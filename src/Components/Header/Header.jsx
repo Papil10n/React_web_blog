@@ -7,7 +7,6 @@ const Header = () => {
         <header className={style.header}>
             <div className={style.headerContent}>
                 <div className={`${style.headerMenu} ${style.menu}`}>
-                    <Burger/>
                     <Menu/>
                 </div>
             </div>

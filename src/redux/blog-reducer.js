@@ -75,7 +75,13 @@ let initialState = {
             category: "connect(), redux-thunk, thunk middleware, compose(), HOC, navigate, axios",
             text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
-
+        {
+            id: 11,
+            postName: "Learn JS algorithms+, work on e-projects",
+            date: "10 Dec 2022",
+            category: "DFS, BFS, graphs, sorting+, consolidation of knowledge of react",
+            text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
     //    and more
     ],
 

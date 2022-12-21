@@ -7,12 +7,7 @@ let mstp = (state) => {
     }
 };
 
-let mdtp = (dispatch) => {
-    return {
 
-    }
-};
-
-const FeaturedWorksContainer = connect(mstp, mdtp)(WorkItems);
+const FeaturedWorksContainer = connect(mstp, {})(WorkItems);
 
 export default FeaturedWorksContainer;

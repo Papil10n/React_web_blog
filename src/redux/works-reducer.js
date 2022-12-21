@@ -8,12 +8,32 @@ import liveSearchImg from "./../Image/liveSearchWork.png"
 import snakeWorkImg from "./../Image/snakeWork.png"
 import formValidationImg from "./../Image/validationFormWork.png"
 import socialNetwImg from './../Image/social_netw.png';
+import ethExp from './../Image/ethExp.png';
+import todoApp from './../Image/todoApp.png';
 
 // action type
 
 // initial state
 let initialState = {
     works: [
+        {
+            id: 25,
+            workName: "Todo App",
+            image: todoApp,
+            yearCreated: 2022,
+            category: "React App, Local Storage",
+            link: "https://papil10n.github.io/React_ToDo_App/",
+            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            id: 125,
+            workName: "Etherium Explorer",
+            image: ethExp,
+            yearCreated: 2022,
+            category: "React App (web3)",
+            link: "https://papil10n.github.io/React_ethereum_explorer/",
+            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
         {
             id: 1,
             workName: "Social Network",
@@ -30,6 +50,15 @@ let initialState = {
             yearCreated: 2022,
             category: "JS App",
             link: "https://papil10n.github.io/Pomodoro_Clock/",
+            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            id: 14,
+            workName: "Quiz Game",
+            image: 'https://papil10n.github.io/Web_blog/img/works/08.jpg',
+            yearCreated: 2022,
+            category: "JS App",
+            link: "https://papil10n.github.io/Quiz_game/",
             description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
         {
@@ -88,7 +117,7 @@ let initialState = {
         },
         {
             id: 9,
-            workName: "ToDo App",
+            workName: "Small todo list",
             image: todoWorkImg,
             yearCreated: 2022,
             category: "JS logic",
@@ -131,15 +160,7 @@ let initialState = {
             link: "https://papil10n.github.io/form_validation/",
             description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
-        {
-            id: 14,
-            workName: "Quiz Game",
-            image: 'https://papil10n.github.io/Web_blog/img/works/08.jpg',
-            yearCreated: 2022,
-            category: "JS App",
-            link: "https://papil10n.github.io/quiz_game-/",
-            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-        },
+
 
     //    and more
     ],
