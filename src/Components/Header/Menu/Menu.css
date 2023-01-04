@@ -1,0 +1,11 @@
+
+.active {
+    color: #a45800;
+}
+.backgrs {
+    position: absolute;
+    width: 100vw;
+    height: 190vh;
+    background-color: rgba(243, 243, 243, 0.85);
+    transition: all 0.3s ease 0s;
+}

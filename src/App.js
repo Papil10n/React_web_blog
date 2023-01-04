@@ -12,7 +12,7 @@ function App() {
         <div className="wrapper">
             <Header/>
             <main className="page">
-                <div className="container">
+                <div className="contentContainer max-w-[856px] px-6 m-auto md:px-0">
                     <Routes>
                         <Route path="/" element={<MainPage/>}/>
                         <Route path="/home" element={<MainPage/>}/>

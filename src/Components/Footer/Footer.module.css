@@ -1,26 +1,28 @@
 .footer {
     text-align: center;
-    padding: 50px 0;
 }
 .footerContent {
-
 }
 .container {
     max-width: 856px;
     margin: 0 auto;
 }
 .footerSocial {
-    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
 }
 .social {
 }
 .socialItem {
     transition: opacity 0.3s ease 0s;
     margin: 0 17px;
-    padding: 0px 5px;
+    padding: 0 5px;
     font-size: 30px;
     color: inherit;
 }
 .footerCopy {
-
+    margin-bottom: 20px;
 }

@@ -1,13 +1,13 @@
-import Burger from "./Burger/Burger";
 import Menu from "./Menu/Menu";
-import style from "./Header.module.css";
+import Burger from "./Burger/Burger";
 
 const Header = () => {
     return (
-        <header className={style.header}>
-            <div className={style.headerContent}>
-                <div className={`${style.headerMenu} ${style.menu}`}>
+        <header className="z-10 relative">
+            <div className="mx-auto max-w-5xl">
+                <div className="flex mt-4 items-center justify-end " >
                     <Menu/>
+                    <Burger/>
                 </div>
             </div>
         </header>

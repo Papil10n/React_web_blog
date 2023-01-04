@@ -1,11 +1,10 @@
 import RecentPostInfo from "./RecentPostInfo/RecentPostInfo";
-import style from "./RecentPostSection.module.css"
 import RecentPostsContainer from "./RecentPosts/RecentPostsContainer";
 
 const RecentPostSection = () => {
     return (
-        <section className={style.recentPosts}>
-            <div className={`${style.recentPostsContainer} ${style.container}`}>
+        <section className="bg-[#edf7fa] pt-[25px] pb-[13px] px-0 md:px-6">
+            <div className="rpCont">
                 <RecentPostInfo/>
                 <RecentPostsContainer />
             </div>
