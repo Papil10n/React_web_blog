@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="z-10 relative">
             <div className="mx-auto max-w-5xl">
-                <div className="flex pb-4 mt-4 items-center justify-end " >
+                <div className="flex mt-4 items-center justify-end " >
                     <Menu/>
                     <Burger/>
                 </div>
