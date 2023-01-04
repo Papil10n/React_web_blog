@@ -7,7 +7,7 @@ let mapStateToProps = (state) => {
     }
 }
 
-let mapDispatchToProps = (dispatch) => {
+let mapDispatchToProps = () => {
     return {}
 }
 

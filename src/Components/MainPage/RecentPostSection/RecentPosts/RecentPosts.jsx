@@ -1,4 +1,3 @@
-import style from "./RecentPosts.module.css"
 import RecentPost from "./RecentPost/RecentPost";
 
 const RecentPosts = (props) => {
@@ -7,7 +6,7 @@ const RecentPosts = (props) => {
     let recentPostItems = arr.map(recentPost => <RecentPost data={recentPost} key={recentPost.id} />)
 
     return (
-        <div className={style.recentPostsItems}>
+        <div className="flex mx-[-10px]">
             {recentPostItems}
         </div>
     )
