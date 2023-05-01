@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/React_web_blog/static/css/main.0b9a15c7.css",
-    "main.js": "/React_web_blog/static/js/main.1ddc533f.js",
+    "main.js": "/React_web_blog/static/js/main.3a240e0b.js",
+    "static/media/customHUD.png": "/React_web_blog/static/media/customHUD.3cf0dca9ad14c5a61df6.png",
     "static/media/avatar.jpg": "/React_web_blog/static/media/avatar.48767fb6b37990fad635.jpg",
     "static/media/issWork.png": "/React_web_blog/static/media/issWork.de5f40d7fa2f1bdc89e4.png",
     "static/media/social_netw.png": "/React_web_blog/static/media/social_netw.81a9e684ae557a5b3948.png",
@@ -10,10 +11,10 @@
     "static/media/weatherWork.png": "/React_web_blog/static/media/weatherWork.1b23e6934b7723aa25db.png",
     "index.html": "/React_web_blog/index.html",
     "main.0b9a15c7.css.map": "/React_web_blog/static/css/main.0b9a15c7.css.map",
-    "main.1ddc533f.js.map": "/React_web_blog/static/js/main.1ddc533f.js.map"
+    "main.3a240e0b.js.map": "/React_web_blog/static/js/main.3a240e0b.js.map"
   },
   "entrypoints": [
     "static/css/main.0b9a15c7.css",
-    "static/js/main.1ddc533f.js"
+    "static/js/main.3a240e0b.js"
   ]
 }
