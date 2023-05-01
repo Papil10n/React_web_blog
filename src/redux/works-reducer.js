@@ -10,6 +10,7 @@ import formValidationImg from "./../Image/validationFormWork.png"
 import socialNetwImg from './../Image/social_netw.png';
 import ethExp from './../Image/ethExp.png';
 import todoApp from './../Image/todoApp.png';
+import CustomHud from './../Image/customHUD.png';
 
 // action type
 
@@ -17,10 +18,19 @@ import todoApp from './../Image/todoApp.png';
 let initialState = {
     works: [
         {
+            id: 65,
+            workName: "Custom HUD",
+            image: CustomHud,
+            yearCreated: 2023,
+            category: "Game modding",
+            link: "#",
+            description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
             id: 25,
             workName: "Todo App",
             image: todoApp,
-            yearCreated: 2022,
+            yearCreated: 2023,
             category: "React App, Local Storage",
             link: "https://papil10n.github.io/React_ToDo_App/",
             description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."

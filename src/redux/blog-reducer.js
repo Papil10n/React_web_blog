@@ -79,7 +79,28 @@ let initialState = {
             id: 11,
             postName: "Learn JS algorithms+",
             date: "10 Dec 2022",
-            category: "DFS, BFS, graphs, sorting+, consolidation of knowledge of react",
+            category: "quick search, kadanes algo, floyc-sycle etc.",
+            text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            id: 12,
+            postName: "Advanced JS",
+            date: "7 Jan 2023",
+            category: "DFS, BFS, graphs, linked list, etc., consolidation of knowledge of react",
+            text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            id: 13,
+            postName: "Basic NodeJS & WebSocket",
+            date: "22 Feb 2023",
+            category: "Fundamental NodeJS and WebSockets information",
+            text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            id: 14,
+            postName: "First one-time full-stack job",
+            date: "19 Mar 2023",
+            category: "NodeJs, WS, Html-css-js",
             text: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
         },
     //    and more
